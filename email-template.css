@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Set background to black */
+}
+
+.email-container {
+    background-color: #000000; /* Black background */
+    width: 650px;
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #dddddd;
+}
+
+.header-section {
+    background-color: #FF0000; /* Red color for header */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 180px;
+    background-color: #ffffff; /* White background behind the logo */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.hero-banner {
+    background-color: #333333;
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.hero-banner h1, .hero-banner p {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+.hero-banner h1 {
+    top: 30%;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-banner p {
+    top: 40%;
+    font-size: 18px;
+}
+
+
+.features-section {
+    padding: 30px;
+    background-color: #111111; /* Slightly lighter black */
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.feature h2 {
+    color: #FF0000; /* Red for feature headings */
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.cta-section {
+    background-color: #FF0000; /* Red background for CTA */
+    text-align: center;
+    padding: 40px 20px;
+    color: #ffffff;
+}
+
+.cta-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ffffff; /* White button */
+    color: #FF0000; /* Red text */
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #cccccc; /* Slight hover effect */
+}
+
+.footer-section {
+    background-color: #111111;
+    text-align: center;
+    padding: 20px;
+    color: #cccccc;
+}
+
+.footer-section p {
+    margin: 10px 0;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.footer-section a {
+    display: inline-block;
+}
+
